@@ -1,0 +1,559 @@
+{
+	"info": {
+		"_postman_id": "bd8b2e7d-2422-44e7-820d-6a0280c14fd3",
+		"name": "RentACar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "CadastrarCliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Andrea Xavier\",\n    \"email\": \"dea.xavier@live.com\",\n    \"telefone\": \"+551199999999\",\n    \"cpf\": \"00000000000\",\n    \"rg\": \"111111111\",\n    \"habilitacao\": \"999999999999999\",\n    \"endereco\": \"Rua A\",\n    \"numeroCasa\": 0,\n    \"complemento\": \" \",\n    \"bairro\": \"Bairro B\",\n    \"cidade\": \"Cidade\",\n    \"estado\": \"Estado\",\n    \"pais\": \"Pais\",\n    \"cep\": \"11555999\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/clientes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarClientePorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/clientes/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clientes",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosClientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/clientes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarCliente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Andrea Xavier\",\n    \"email\": \"dea.xavier@live.com\",\n    \"telefone\": \"+551199999999\",\n    \"cpf\": \"00000000000\",\n    \"rg\": \"111111111\",\n    \"habilitacao\": \"999999999999999\",\n    \"endereco\": \"Rua A\",\n    \"numeroCasa\": 0,\n    \"complemento\": \"apto 2A\",\n    \"bairro\": \"Bairro B\",\n    \"cidade\": \"Cidade\",\n    \"estado\": \"Estado\",\n    \"pais\": \"Pais\",\n    \"cep\": \"11555999\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/clientes/4",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clientes",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Marcas",
+			"item": [
+				{
+					"name": "BuscarTodasMarcas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/marcas",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"marcas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarMarcaPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/marcas/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"marcas",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarMarca",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Land Rouver\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/marcas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"marcas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarMarca",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Nissan\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/marcas/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"marcas",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modelos",
+			"item": [
+				{
+					"name": "BuscarTodosModelos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/modelos",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"modelos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosModeloPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/modelos/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"modelos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarModelo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"marcaId\": 3,\n    \"nome\": \"Versa\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/modelos/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"modelos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarModelo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"marcaId\": 6,\n    \"nome\": \"Defender\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/modelos",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"modelos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pedido",
+			"item": [
+				{
+					"name": "BuscarTodosPedidos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/pedidos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pedidos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FazerPedido",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"veiculoId\": 2,\n    \"clienteId\": 4,\n    \"quantidadeDiasSolicitado\": 5\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/pedidos/cadastrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pedidos",
+								"cadastrar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosPedidoPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/pedidos/21",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pedidos",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosPedidoPorCliente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/pedidos/porcliente/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pedidos",
+								"porcliente",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosPedidoPorVeiculo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/pedidos/porveiculo/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pedidos",
+								"porveiculo",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Veiculo",
+			"item": [
+				{
+					"name": "BuscarVeiculosAtivos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/veiculos/ativos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos",
+								"ativos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarTodosVeiculos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/veiculos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarVeiculoPorId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/veiculos/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarVeiculo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"modeloId\": 1,\n    \"placa\": \"AAA0000\",\n    \"cor\": \"Branco\",\n    \"opcionais\": \"Sem Opcionais\",\n    \"ano\": 2020,\n    \"anoFabricacao\": 2020,\n    \"chassi\": \"AAAAAAAAA\",\n    \"renavam\": \"BvfREAfadsf\",\n    \"km\": 935,\n    \"valorDiaria\": 130\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/veiculos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarVeiculo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"modeloId\": 1,\n    \"placa\": \"AAA0000\",\n    \"cor\": \"Branco\",\n    \"opcionais\": \"Sem Opcionais\",\n    \"ano\": 2020,\n    \"anoFabricacao\": 2020,\n    \"chassi\": \"AAAAAAAAA\",\n    \"renavam\": \"BvfREAfadsf\",\n    \"km\": 935,\n    \"valorDiaria\": 130,\n    \"disponivel\": \"Y\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/veiculos/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DevolverVeiculo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/veiculos/devolver/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"veiculos",
+								"devolver",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
