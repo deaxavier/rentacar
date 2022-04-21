@@ -2,9 +2,9 @@
 <br />
 
 # Rent a Car
-Atividade 3 - WebServices em RESTful - NinjaBit
-O Projeto foi desenvolvido para solucionar a necessidade de uma api de alugueis de veículos
-Os prints do projeto estão na pasta **_evidencias_imagens_**
+Atividade 3 - WebServices em RESTful - NinjaBit <br/>
+O Projeto foi desenvolvido para solucionar a necessidade de uma api de alugueis de veículos<br/>
+Os prints do projeto estão na pasta **_evidencias_imagens_**<br/>
 
 **Requer instalado**
 * apache maven
@@ -21,9 +21,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 ### Concessionária
 ------------------
-* CadastrarConcessionaria
+* CadastrarConcessionaria<br/>
   
-    _Cadastra uma concessionária no sistema_
+    _Cadastra uma concessionária no sistema_<br/>
 
   * endereço: http://localhost:8080/concessionarias
     * verbo: **POST**
@@ -31,9 +31,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* AtualizarConcessionaria
+* AtualizarConcessionaria<br/>
   
-  _Atualiza uma concessionária cadastrada no sistema_
+  _Atualiza uma concessionária cadastrada no sistema_<br/>
 
   * endereço: http://localhost:8080/concessionarias/{id}
     * verbo: **PUT**
@@ -41,9 +41,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodasConcessionarias
+* BuscarTodasConcessionarias<br/>
   
-  _Lista todas as concessionarias cadastradas no sistema_
+  _Lista todas as concessionarias cadastradas no sistema_<br/>
 
   * endereço: http://localhost:8080/concessionarias
     * verbo: **GET**
@@ -51,9 +51,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarConcessionariaPorId
+* BuscarConcessionariaPorId<br/>
   
-    _Busca uma concessionaria pelo id_
+    _Busca uma concessionaria pelo id_<br/>
 
     * endereço: http://localhost:8080/concessionarias/{id}
       * verbo: **GET**
@@ -64,9 +64,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ------------------
 ### Clientes
 ---------
-* CadastrarCliente
+* CadastrarCliente<br/>
   
-   _Cadastra um cliente no sistema_
+   _Cadastra um cliente no sistema_<br/>
 
   * endereço: http://localhost:8080/clientes
     * verbo: **POST**
@@ -74,9 +74,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* AtualizarCliente
+* AtualizarCliente<br/>
   
-  _Atualiza um cliente cadastrado no sistema_
+  _Atualiza um cliente cadastrado no sistema_<br/>
 
   * endereço: http://localhost:8080/clientes/{id}
     * verbo: **PUT**
@@ -84,9 +84,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarClientePorId
+* BuscarClientePorId<br/>
   
-    _Busca um cliente pelo id_
+    _Busca um cliente pelo id_<br/>
 
     * endereço: http://localhost:8080/clientes/{id}
       * verbo: **GET**
@@ -94,9 +94,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarClientePorCPF
+* BuscarClientePorCPF<br/>
   
-    _Busca um cliente pelo cpf_
+    _Busca um cliente pelo cpf_<br/>
 
     * endereço: http://localhost:8080/clientes/bycpf/{cpf}
       * verbo: **GET**
@@ -104,9 +104,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarClientePorEmail
+* BuscarClientePorEmail<br/>
   
-    _Busca um cliente pelo email_
+    _Busca um cliente pelo email_<br/>
 
     * endereço: http://localhost:8080/clientes/byemail/{email}
       * verbo: **GET**
@@ -114,9 +114,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodosClientes
+* BuscarTodosClientes<br/>
   
-    _Retorna lista de todos os clientes_
+    _Retorna lista de todos os clientes_<br/>
 
     * endereço: http://localhost:8080/clientes
       * verbo: **GET**
@@ -127,9 +127,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ---------
 ### Marcas
 ----------
-* CadastrarMarca
+* CadastrarMarca<br/>
   
-   _Cadastra uma marca no sistema_
+   _Cadastra uma marca no sistema_<br/>
 
   * endereço: http://localhost:8080/marcas
     * verbo: **POST**
@@ -137,9 +137,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* AtualizarMarca
+* AtualizarMarca<br/>
   
-  _Atualiza uma marca cadastrada no sistema_
+  _Atualiza uma marca cadastrada no sistema_<br/>
 
   * endereço: http://localhost:8080/marcas/{id}
   * verbo: **PUT**
@@ -147,9 +147,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodasMarcas
+* BuscarTodasMarcas<br/>
   
-    _Retorna lista de todas as marcas_
+    _Retorna lista de todas as marcas_<br/>
 
     * endereço: http://localhost:8080/marcas
     * verbo: **GET**
@@ -157,9 +157,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarMarcaPorId
+* BuscarMarcaPorId<br/>
   
-    _Busca uma marca pelo id_
+    _Busca uma marca pelo id_<br/>
 
     * endereço: http://localhost:8080/marcas/{id}
     * verbo: **GET**
@@ -170,9 +170,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 -----------
 ### Modelo
 ------------
-* CadastrarModelo
+* CadastrarModelo<br/>
   
-   _Cadastra um modelo no sistema_
+   _Cadastra um modelo no sistema_<br/>
 
   * endereço: http://localhost:8080/modelos
     * verbo: **POST**
@@ -180,9 +180,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* AtualizarModelo
+* AtualizarModelo<br/>
   
-  _Atualiza um modelo cadastrado no sistema_
+  _Atualiza um modelo cadastrado no sistema_<br/>
 
   * endereço: http://localhost:8080/modelos/{id}
     * verbo: **PUT**
@@ -190,9 +190,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodosModelos
+* BuscarTodosModelos<br/>
   
-    _Retorna todos os modelos_
+    _Retorna todos os modelos_<br/>
 
     * endereço: http://localhost:8080/modelos
       * verbo: **GET**
@@ -200,9 +200,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarModeloPorId
+* BuscarModeloPorId<br/>
   
-    _Busca um modelo pelo id_
+    _Busca um modelo pelo id_<br/>
 
     * endereço: http://localhost:8080/modelos/{id}
       * verbo: **GET**
@@ -210,9 +210,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarModeloPorMarca
+* BuscarModeloPorMarca<br/>
   
-    _Busca um modelo pelo id da marca_
+    _Busca um modelo pelo id da marca_<br/>
 
     * endereço: http://localhost:8080/modelos/bymarca/{marcaId}
       * verbo: **GET**
@@ -223,22 +223,22 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ---------------
 ### Pedido
 ------------
-* FazerPedido
+* FazerPedido<br/>
   
-   _Realiza um pedido de locação de carro_
+   _Realiza um pedido de locação de carro_<br/>
 
-   _Calcula o valor estimado da alocação_
+   _Calcula o valor estimado da alocação_<br/>
 
-   _Também remove o veículo da lista de veúclos disponiveis para aluguel_
+   _Também remove o veículo da lista de veúclos disponiveis para aluguel_<br/>
   * endereço:http://localhost:8080/pedidos/cadastrar
     * verbo: **POST**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Pedido/FazerPedido.png" />
 
 <br />
 
-* BuscarTodosPedidos
+* BuscarTodosPedidos<br/>
   
-   _Busca todos os pedidos feitos_
+   _Busca todos os pedidos feitos_<br/>
 
   * endereço:http://localhost:8080/pedidos
     * verbo: **GET**
@@ -246,9 +246,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodosPedidoPorCliente
+* BuscarTodosPedidoPorCliente<br/>
   
-   _Busca todos os pedidos feitos por um cliente_
+   _Busca todos os pedidos feitos por um cliente_<br/>
 
   * endereço:http://localhost:8080/pedidos/porcliente/{clienteId}
     * verbo: **GET**
@@ -256,9 +256,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarTodosPedidoPorVeiculo
+* BuscarTodosPedidoPorVeiculo<br/>
   
-   _Busca todos os pedidos feitos para um veículo_
+   _Busca todos os pedidos feitos para um veículo_<br/>
 
   * endereço:http://localhost:8080/pedidos/porveiculo/{veiculoId}
     * verbo: **GET**
@@ -270,11 +270,11 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Veículo
 ---
 
-* CadastrarVeiculo
+* CadastrarVeiculo<br/>
   
-    _Cadastrar um veículo no sistema_
+    _Cadastrar um veículo no sistema_<br/>
 
-    _O veículo cadastrado entra como ativo(liberado para alocação)_
+    _O veículo cadastrado entra como ativo(liberado para alocação)_<br/>
 
   * endereço:http://localhost:8080/veiculos
       * verbo: **POST**
@@ -282,9 +282,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* AtualizarVeiculo
+* AtualizarVeiculo<br/>
   
-  _Atualiza os dados de um veículo_
+  _Atualiza os dados de um veículo_<br/>
 
   * endereço:http://localhost:8080/veiculos
       * verbo: **PUT**
@@ -292,13 +292,13 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* DevolverVeiculo
+* DevolverVeiculo<br/>
   
-  _Devolver um veículo à uma concessionaria, calcula o valor final da alocação_
+  _Devolver um veículo à uma concessionaria, calcula o valor final da alocação_<br/>
 
-  _Após o processo o veículo é liberado para ser alocado por outro cliente_
+  _Após o processo o veículo é liberado para ser alocado por outro cliente_<br/>
 
-  _O veículo nãoo precisa ser devolvido na concessionaria em que ele foi alugado_
+  _O veículo nãoo precisa ser devolvido na concessionaria em que ele foi alugado_<br/>
 
     * endereço:http://localhost:8080/veiculos/devolver/{idVeiculo}/{idConcessionaria}
       * verbo: **PUT**
@@ -306,9 +306,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 <br />
 
-* BuscarVeiculosAtivos
+* BuscarVeiculosAtivos<br/>
   
-_Retorna lista de veículos disponiveis para alocação_
+_Retorna lista de veículos disponiveis para alocação_<br/>
 
     * endereço:http://localhost:8080/veiculos/ativos
       * verbo: **GET**
@@ -316,9 +316,9 @@ _Retorna lista de veículos disponiveis para alocação_
 
 <br />
 
-* BuscarTodosVeiculos
+* BuscarTodosVeiculos<br/>
   
-   _Retorna lista de todos os veículos da base, incluindo os que estão alocados no momento_
+   _Retorna lista de todos os veículos da base, incluindo os que estão alocados no momento_<br/>
 
     * endereço:http://localhost:8080/veiculos
       * verbo: **GET**
@@ -326,9 +326,9 @@ _Retorna lista de veículos disponiveis para alocação_
 
 <br />
 
-* BuscarVeiculoPorId
+* BuscarVeiculoPorId<br/>
   
-_Busca um veículo pelo Id_
+_Busca um veículo pelo Id_<br/>
 
     * endereço:http://localhost:8080/veiculos/{id}
       * verbo: **GET**
@@ -336,9 +336,9 @@ _Busca um veículo pelo Id_
 
 <br />
 
-* BuscarVeiculoPorConcessionaria
+* BuscarVeiculoPorConcessionaria<br/>
   
-  _Busca todos os veículos da concessionaria_
+  _Busca todos os veículos da concessionaria_<br/>
 
       * endereço:http://localhost:8080/veiculos/byconcessionaria/{idConcessionaria}
         * verbo: **GET**
