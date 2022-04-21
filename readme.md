@@ -103,6 +103,7 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/BuscarTodosClientes.png" />
 
 <br />
+
 ---------
 ### Marcas
 ----------
@@ -137,6 +138,7 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Marca/BuscarMarcaPorId.png" />
 
 <br />
+
 -----------
 ### Modelo
 ------------
@@ -179,6 +181,7 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/BuscarTodosModeloPorMarcaId.png" />
 
 <br />
+
 ---------------
 ### Pedido
 ------------
@@ -218,6 +221,8 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 
 ----
 ### Veículo
+---
+
 * CadastrarVeiculo
     _Cadastrar um veículo no sistema_
     _O veículo cadastrado entra como ativo(liberado para alocação)_
