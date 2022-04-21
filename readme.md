@@ -22,7 +22,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Concessionária
 ------------------
 * CadastrarConcessionaria
+  
     _Cadastra uma concessionária no sistema_
+
   * endereço: http://localhost:8080/concessionarias
     * verbo: **POST**
 <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Concessionaria/CadastrarConcessionaria.png" />
@@ -30,7 +32,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * AtualizarConcessionaria
+  
   _Atualiza uma concessionária cadastrada no sistema_
+
   * endereço: http://localhost:8080/concessionarias/{id}
     * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Concessionaria/AtualizarConcessionaria.png" />
@@ -38,7 +42,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodasConcessionarias
+  
   _Lista todas as concessionarias cadastradas no sistema_
+
   * endereço: http://localhost:8080/concessionarias
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Concessionaria/BuscarTodasConcessionarias.png" />
@@ -46,7 +52,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarConcessionariaPorId
+  
     _Busca uma concessionaria pelo id_
+
     * endereço: http://localhost:8080/concessionarias/{id}
       * verbo: **GET**
 <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Concessionaria/BuscarConcessionariaPorId.png" />
@@ -57,7 +65,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Clientes
 ---------
 * CadastrarCliente
+  
    _Cadastra um cliente no sistema_
+
   * endereço: http://localhost:8080/clientes
     * verbo: **POST**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/CadastrarCliente.png" />
@@ -65,7 +75,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * AtualizarCliente
+  
   _Atualiza um cliente cadastrado no sistema_
+
   * endereço: http://localhost:8080/clientes/{id}
     * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/AtualizarCliente.png" />
@@ -73,7 +85,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarClientePorId
+  
     _Busca um cliente pelo id_
+
     * endereço: http://localhost:8080/clientes/{id}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/BuscarClientePorId.png" />
@@ -81,7 +95,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarClientePorCPF
+  
     _Busca um cliente pelo cpf_
+
     * endereço: http://localhost:8080/clientes/bycpf/{cpf}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/BuscarClientePorCpf.png" />
@@ -89,7 +105,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarClientePorEmail
+  
     _Busca um cliente pelo email_
+
     * endereço: http://localhost:8080/clientes/byemail/{email}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/BuscarClientePorEmail.png" />
@@ -97,7 +115,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodosClientes
+  
     _Retorna lista de todos os clientes_
+
     * endereço: http://localhost:8080/clientes
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Clientes/BuscarTodosClientes.png" />
@@ -108,7 +128,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Marcas
 ----------
 * CadastrarMarca
+  
    _Cadastra uma marca no sistema_
+
   * endereço: http://localhost:8080/marcas
     * verbo: **POST**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Marca/CadastrarMarca.png" />
@@ -116,7 +138,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * AtualizarMarca
+  
   _Atualiza uma marca cadastrada no sistema_
+
   * endereço: http://localhost:8080/marcas/{id}
   * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Marca/AtualizarMarca.png" />
@@ -124,7 +148,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodasMarcas
+  
     _Retorna lista de todas as marcas_
+
     * endereço: http://localhost:8080/marcas
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Marca/BuscarTodasMarcas.png" />
@@ -132,7 +158,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarMarcaPorId
+  
     _Busca uma marca pelo id_
+
     * endereço: http://localhost:8080/marcas/{id}
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Marca/BuscarMarcaPorId.png" />
@@ -143,7 +171,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Modelo
 ------------
 * CadastrarModelo
+  
    _Cadastra um modelo no sistema_
+
   * endereço: http://localhost:8080/modelos
     * verbo: **POST**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/CadastrarModelo.png" />
@@ -151,7 +181,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * AtualizarModelo
+  
   _Atualiza um modelo cadastrado no sistema_
+
   * endereço: http://localhost:8080/modelos/{id}
     * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/AtualizarModelo.png" />
@@ -159,7 +191,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodosModelos
+  
     _Retorna todos os modelos_
+
     * endereço: http://localhost:8080/modelos
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/BuscarTodosModelos.png" />
@@ -167,7 +201,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarModeloPorId
+  
     _Busca um modelo pelo id_
+
     * endereço: http://localhost:8080/modelos/{id}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/BuscarTodosModeloPorId.png" />
@@ -175,7 +211,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarModeloPorMarca
+  
     _Busca um modelo pelo id da marca_
+
     * endereço: http://localhost:8080/modelos/bymarca/{marcaId}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Modelos/BuscarTodosModeloPorMarcaId.png" />
@@ -186,8 +224,11 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ### Pedido
 ------------
 * FazerPedido
+  
    _Realiza um pedido de locação de carro_
+
    _Calcula o valor estimado da alocação_
+
    _Também remove o veículo da lista de veúclos disponiveis para aluguel_
   * endereço:http://localhost:8080/pedidos/cadastrar
     * verbo: **POST**
@@ -196,7 +237,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodosPedidos
+  
    _Busca todos os pedidos feitos_
+
   * endereço:http://localhost:8080/pedidos
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Pedido/BuscarTodosPedidos.png" />
@@ -204,7 +247,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodosPedidoPorCliente
+  
    _Busca todos os pedidos feitos por um cliente_
+
   * endereço:http://localhost:8080/pedidos/porcliente/{clienteId}
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Pedido/BuscarTodosPedidoPorCliente.png" />
@@ -212,7 +257,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarTodosPedidoPorVeiculo
+  
    _Busca todos os pedidos feitos para um veículo_
+
   * endereço:http://localhost:8080/pedidos/porveiculo/{veiculoId}
     * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Pedido/BuscarTodosPedidoPorVeiculo.png" />
@@ -224,8 +271,11 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 ---
 
 * CadastrarVeiculo
+  
     _Cadastrar um veículo no sistema_
+
     _O veículo cadastrado entra como ativo(liberado para alocação)_
+
   * endereço:http://localhost:8080/veiculos
       * verbo: **POST**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/CadastrarVeiculo.png" />
@@ -233,7 +283,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * AtualizarVeiculo
+  
   _Atualiza os dados de um veículo_
+
   * endereço:http://localhost:8080/veiculos
       * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/AtualizarVeiculo.png" />
@@ -241,9 +293,13 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * DevolverVeiculo
+  
   _Devolver um veículo à uma concessionaria, calcula o valor final da alocação_
+
   _Após o processo o veículo é liberado para ser alocado por outro cliente_
+
   _O veículo nãoo precisa ser devolvido na concessionaria em que ele foi alugado_
+
     * endereço:http://localhost:8080/veiculos/devolver/{idVeiculo}/{idConcessionaria}
       * verbo: **PUT**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/DevolverVeiculo.png" />
@@ -251,7 +307,9 @@ Os prints do projeto estão na pasta **_evidencias_imagens_**
 <br />
 
 * BuscarVeiculosAtivos
+  
 _Retorna lista de veículos disponiveis para alocação_
+
     * endereço:http://localhost:8080/veiculos/ativos
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/BuscarVeiculosAtivos.png" />
@@ -259,7 +317,9 @@ _Retorna lista de veículos disponiveis para alocação_
 <br />
 
 * BuscarTodosVeiculos
+  
    _Retorna lista de todos os veículos da base, incluindo os que estão alocados no momento_
+
     * endereço:http://localhost:8080/veiculos
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/BuscarTodosVeiculos.png" />
@@ -267,7 +327,9 @@ _Retorna lista de veículos disponiveis para alocação_
 <br />
 
 * BuscarVeiculoPorId
+  
 _Busca um veículo pelo Id_
+
     * endereço:http://localhost:8080/veiculos/{id}
       * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/BuscarVeiculoPorId.png" />
@@ -275,7 +337,9 @@ _Busca um veículo pelo Id_
 <br />
 
 * BuscarVeiculoPorConcessionaria
+  
   _Busca todos os veículos da concessionaria_
+
       * endereço:http://localhost:8080/veiculos/byconcessionaria/{idConcessionaria}
         * verbo: **GET**
   <img src="https://raw.githubusercontent.com/deaxavier/rentacar/main/evidencias_imagens/Veiculos/BuscarVeiculoPorConcessionaria.png" />
