@@ -1,9 +1,9 @@
 <img src="https://www.calendariodovestibular.com.br/wp-content/uploads/2020/08/vestibular-fiap-2022.jpg" />
+<br />
 # Rent a Car
 Atividade 3 - WebServices em RESTful - NinjaBit
 O Projeto foi desenvolvido para solucionar a necessidade de uma api de alugueis de veículos
-Os p
-rints do projeto estão na pasta **_evidencias_imagens_**
+Os prints do projeto estão na pasta **_evidencias_imagens_**
 **Requer instalado**
 * apache maven
 * java 17 ou superior
